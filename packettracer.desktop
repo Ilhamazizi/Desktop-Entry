@@ -1,0 +1,12 @@
+# SOURCE www.netacad.com/
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Cisco Packettracer
+Version=8.0
+Type=Application
+Categories=Application;Network
+#Icon= your-path-icon
+Exec=packettracer
+Terminal=False
+
