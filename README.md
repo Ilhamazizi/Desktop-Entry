@@ -13,5 +13,6 @@ bash=/usr/local/share/applications/code.desktop
 #### OR
 
 ```
+sudo mkdir /usr/local/share/applications \
 sudo wget https://raw.githubusercontent.com/Ilhamazizi/Desktop-Entry/main/code.desktop -P /usr/local/share/applications/
 ```
