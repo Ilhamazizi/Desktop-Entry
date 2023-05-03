@@ -2,5 +2,5 @@
 
 ### execution desktop-entry
 ```
-sudo chmod +x .execute.sh && bash ./.execute.sh
+sudo chmod +x .execute.sh && bash=./.execute.sh
 ```
