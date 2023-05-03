@@ -1,9 +1,11 @@
+# SOURCE www.mendeley.com
+
 [Desktop Entry]
 Name=Mendeley 
 Encoding=UTF-8
 #Version=
 Type=Application
 Categories=Application;Education
-Icon=/opt/mendeley/mendeley.png
+#Icon= your-path-icon
 Exec=mendeley
 Terminal=False
