@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Mendeley 
+Encoding=UTF-8
+#Version=
+Type=Application
+Categories=Application;Education
+Icon=/opt/mendeley/mendeley.png
+Exec=mendeley
+Terminal=False
