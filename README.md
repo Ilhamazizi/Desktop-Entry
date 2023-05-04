@@ -6,13 +6,20 @@ sudo chmod +x .execute.sh && bash=./.execute.sh
 
 ### example 
 
-#### default PATH directory desktop-entry
+#### create directory
 ```
-bash=/usr/local/share/applications/code.desktop
+sudo mkdir /usr/local/share/application
 ```
-#### OR
 
+#### wget
 ```
 sudo mkdir /usr/local/share/applications \
 sudo wget https://raw.githubusercontent.com/Ilhamazizi/Desktop-Entry/main/code.desktop -P /usr/local/share/applications/
+```
+
+#### OR curl
+
+```
+curl -O https://raw.githubusercontent.com/Ilhamazizi/Desktop-Entry/main/code.desktop \ 
+sudo mv code.desktop /usr/local/share/application/
 ```
