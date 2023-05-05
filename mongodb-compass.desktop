@@ -1,0 +1,14 @@
+# SOURCE https://www.mongodb.com
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=MongoDB Compass
+Comment=The MongoDB GUI
+#GenericName=MongoDB Compass
+Exec=mongodb-compass %U
+#Icon= your-path-icon
+Type=Application
+StartupNotify=true
+Categories=Application;Office;Database;Building;Debugger;IDE;GUIDesigner;Profiling;
+#MimeType=x-scheme-handler/mongodb;x-scheme-handler/mongodb+srv;
+
