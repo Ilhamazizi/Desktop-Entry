@@ -1,4 +1,4 @@
-### Universal script
+## Universal script
 ```
 sudo chmod +x updateScripts.sh
 ```
@@ -13,3 +13,10 @@ sudo ln -s updateScripts.sh /usr/local/bin/update
 ```
 update
 ```
+
+## Create Logfiles upadte
+```
+mkdir ${HOME}/.log
+update
+```
+
