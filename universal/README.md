@@ -8,3 +8,8 @@ sudo chmod +x updateScripts.sh
 ```
 sudo ln -s updateScripts.sh /usr/local/bin/update
 ```
+
+#### Test Script
+```
+update
+```
