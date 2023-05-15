@@ -14,7 +14,7 @@ sudo ln -s updateScripts.sh /usr/local/bin/update
 update
 ```
 
-## Create Logfiles upadte
+## Create Logfiles upadate
 ```
 mkdir ${HOME}/.log
 update
