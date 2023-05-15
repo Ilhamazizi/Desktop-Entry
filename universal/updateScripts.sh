@@ -1,6 +1,8 @@
 #!/bin/bash
 
 release_file=/etc/os-release
+
+#default logfile : /var/log/*
 errorfile=${HOME}/.log/updater_error.log
 logfile=${HOME}/.log/updater.log
 
