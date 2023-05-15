@@ -17,6 +17,9 @@ update
 ## Create Logfiles update
 ```
 mkdir ${HOME}/.log
-update
 ```
-
+#### Looking update script
+```
+update
+tail -f ${HOME}/.log/update.log
+```
