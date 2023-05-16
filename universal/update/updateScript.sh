@@ -25,29 +25,29 @@ fi
 if grep -q "Debian" $release_file || grep -q "Ubuntu" $release_file
 then
     # The host is based on Debian & Ubuntu, run the apt version of the command
-    sudo apt update
+    sudo apt update 1>>$logfile 2>>$errorfile
     check_exit_status
 
-    sudo apt dist-upgrade
+    sudo apt dist-upgrade 1>>$logfile 2>>$errorfile
     check_exit_status
 fi
 
 if grep -q "openSUSE" $release_file
 then
     # The host is based on openSUSE, run the zypper refresh command
-    sudo zypper ref
+    sudo zypper ref 1>>$logfile 2>>$errorfile
     check_exit_status
 
-    sudo zypper up
+    sudo zypper up 1>>$logfile 2>>$errorfile
     check_exit_status
 fi
 
 if grep -q "Red Hat" $release_file || grep -q "CentOS" $release_file
 then
    # The host is based on RedHat, run the yum update command
-    sudo yum update
+    sudo yum update 1>>$logfile 2>>$errorfile
     check_exit_status
 
-    sudo yum upgrade
+    sudo yum upgrade 1>>$logfile 2>>$errorfile
     check_exit_status
 fi
