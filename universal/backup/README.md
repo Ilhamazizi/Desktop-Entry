@@ -18,3 +18,7 @@ mkdir ${HOME}/backup
 ```
 backup <SOURCE_DIR> to <TARGET_DIR> 
 ```
+#### Example 
+```
+backup ~/Documents/ backup/
+```
