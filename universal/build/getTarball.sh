@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# SOURCE https://kernel.org
 # get-verified-tarball
 # --------------------
 # Get Linux kernel tarball and cryptographically verify it,
