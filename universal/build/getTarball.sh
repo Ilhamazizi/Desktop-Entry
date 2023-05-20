@@ -51,12 +51,12 @@ XZBIN="/usr/bin/xz"
 # You shouldn't need to modify this, unless someone
 # other than Linus or Greg start releasing kernels.
 
-#DEVKEYS="torvalds@kernel.org gregkh@kernel.org"
+DEVKEYS="torvalds@kernel.org gregkh@kernel.org"
 
 # Don't add this to DEVKEYS, as it plays a wholly
 # different role and is NOT a key that should be used
 # to verify kernel tarball signatures (just the checksums).
-#SHAKEYS="autosigner@kernel.org"
+SHAKEYS="autosigner@kernel.org"
 
 # What kernel version do you want?
 VER=${1}
