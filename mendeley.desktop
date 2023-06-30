@@ -1,11 +1,16 @@
 # SOURCE www.mendeley.com
 
 [Desktop Entry]
-Name=Mendeley 
+Name=Mendeley
 Encoding=UTF-8
 #Version=
 Type=Application
-Categories=Application;Education
-#Icon= your-path-icon
-Exec=mendeley
-Terminal=False
+Categories=Education;
+Icon=$DESKTOP_ICON
+Exec=mendeley %U
+TryExec=mendeley
+Terminal=false
+Comment=mendeley research to life
+GenericName=mendeley reference management
+#Keywords=
+StartupNotify=true
