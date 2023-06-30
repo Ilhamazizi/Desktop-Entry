@@ -12,9 +12,8 @@ TryExec=firefox
 Exec=firefox %U
 Terminal=false
 StartupNotify=true
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;application/x-xpinstall;x-scheme-handler/http;x-scheme-handler/https;
 #Keywords=
-#MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;application/x-xpinstall;x-scheme-handler/http;x-scheme-handler/https;
-
 
 Actions=new-window;PrivateBrowsing;ProfileManager
 
