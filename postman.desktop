@@ -1,0 +1,15 @@
+# SOURCE https://postman.com
+
+[Desktop Entry]
+Name=Postman
+Encoding=UTF-8
+GenericName=API platform for building
+Comment=API platform for building
+Type=Application
+Categories=Development;API;Network;
+Icon=$DESKTOP_ENTRY
+Exec=postman %U
+TryExec=postman
+Version=10.15.0
+Terminal=false
+
