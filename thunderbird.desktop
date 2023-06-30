@@ -12,7 +12,7 @@ Terminal=false
 X-MultipleArgs=false
 Type=Application
 Icon=$DESKTOP_ICON
-Categories=Network;Email;Message;
+Categories=Network;Email;
 MimeType=x-scheme-handler/mailto;application/x-xpinstall;
 StartupNotify=true
 Actions=Compose;Contacts
@@ -24,3 +24,4 @@ Exec=thunderbird -compose
 [Desktop Action Contacts]
 Name=Contacts
 Exec=thunderbird -addressbook
+
