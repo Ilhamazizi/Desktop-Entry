@@ -4,11 +4,13 @@
 Encoding=UTF-8
 Name=MongoDB Compass
 Comment=The MongoDB GUI
-#GenericName=MongoDB Compass
+GenericName=MongoDB Compass
 Exec=mongodb-compass %U
-#Icon= your-path-icon
+TryExec=mongodb-compass
+Icon=$DESKTOP_ICON
 Type=Application
 StartupNotify=true
+Terminal=false
 Categories=Application;Office;Database;Building;Debugger;IDE;GUIDesigner;Profiling;
 #MimeType=x-scheme-handler/mongodb;x-scheme-handler/mongodb+srv;
-
+#Keywords=

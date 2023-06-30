@@ -4,14 +4,15 @@
 Encoding=UTF-8
 Name=Firefox
 Type=Application
-Categories=Application;WebBrowser;Network
+Categories=WebBrowser;Network;
 GenericName=Web Browser
-#Icon= your-path-icon
-#Comment=Web Browser
+Icon=$DESKTOP_ICON
+Comment=Web Browser
 TryExec=firefox
-Exec=firefox %u
-Terminal=False
-#StartupNotify=True
+Exec=firefox %U
+Terminal=false
+StartupNotify=true
+#Keywords=
 #MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;application/x-xpinstall;x-scheme-handler/http;x-scheme-handler/https;
 
 

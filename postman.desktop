@@ -12,4 +12,5 @@ Exec=postman %U
 TryExec=postman
 Version=10.15.0
 Terminal=false
-
+StartupNotify=true
+#Keywords=
