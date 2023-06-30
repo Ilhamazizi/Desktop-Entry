@@ -12,6 +12,5 @@ TryExec=code
 Terminal=false
 Comment=code editor for building and debugging
 GenericName=code editor for building and debugging
-#Keywords=
 StartupNotify=true
-
+#Keywords=
