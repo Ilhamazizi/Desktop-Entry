@@ -1,0 +1,18 @@
+[Unit]
+Description=Manage NodeJS
+Version=18.18.2
+Documentation=https://nodejs.org
+After=network.target
+
+[Service]
+WorkingDirectory=$DIR_APP_NODEJS
+ExecStart=/usr/bin/nodejs && $DIR_APP_NODEJS/app.js
+User=$SUDO_USER
+Group=$SUDO_GID 
+Type=simple
+KillMode=proccess
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
