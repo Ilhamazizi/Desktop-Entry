@@ -16,6 +16,7 @@ Categories=Network;Email;
 MimeType=x-scheme-handler/mailto;application/x-xpinstall;
 StartupNotify=true
 Actions=Compose;Contacts
+#Version
 
 [Desktop Action Compose]
 Name=Compose New Message
