@@ -3,7 +3,6 @@
 [Desktop Entry]
 Name=Mendeley
 Encoding=UTF-8
-#Version=
 Type=Application
 Categories=Education;
 Icon=$DESKTOP_ICON/mendeley.png
@@ -12,5 +11,6 @@ TryExec=$MENDELEY
 Terminal=false
 Comment=Mendeley research to life
 GenericName=Mendeley reference management
-#Keywords=
 StartupNotify=true
+#Version=
+#Keywords=
