@@ -1,4 +1,4 @@
-### Shorcut .desktop
+# Shorcut .desktop
 
 ### Default Directory 
 ```
