@@ -1,7 +1,8 @@
 [Unit]
+Documentation=https://nodejs.org
 Description=Manage NodeJS
 Version=18.18.2
-Documentation=https://nodejs.org
+CodeName=Hydrogen
 After=network.target
 
 [Service]
