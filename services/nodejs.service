@@ -1,6 +1,6 @@
 [Unit]
 Documentation=https://nodejs.org
-Description=Manage NodeJS
+Description=Manage NodeJS App
 Version=18.18.2
 CodeName=Hydrogen
 After=network.target
@@ -9,7 +9,7 @@ After=network.target
 WorkingDirectory=$DIR_APP_NODEJS
 ExecStart=/usr/bin/nodejs && $DIR_APP_NODEJS/app.js
 User=$SUDO_USER
-Group=$SUDO_GID 
+Group=$NODE_APP 
 Type=simple
 KillMode=proccess
 Restart=on-failure
