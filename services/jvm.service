@@ -1,20 +1,16 @@
 [Unit]
-Description=Java Virtual Machine
+#Documetation=
+Description=Test
 After=syslog.target network.target
 
 [Service]
-SuccessExitStatus=143
-
-User=$USER
-Group=java
-
-#Try=simple
-Type=forking
-Environment=${JAVA_HOME} #"JAVA_HOME/path/to/jvmdir"
-WorkingDirectory= #/path/to/app/workdir
-ExecStart=${JAVA_HOME}/bin/java -jar javaapp.jar
+User=$SUDO_USER
+Group=$SUDO_USER
+WorkingDirectory=$DEV/test/
+Type=simple
+ExecStart=/usr/bin/java -jar javaapp.jar && $DEV/test/src/main.java
 ExecStop=/bin/kill -15 $MAINPID
-
+#Environment=
 
 [Install]
 WantedBy=multi-user.target
