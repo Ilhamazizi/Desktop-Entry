@@ -1,12 +1,10 @@
-# SOURCE https://www.mozilla.org/id/firefox/new/
-
 [Desktop Entry]
 Encoding=UTF-8
 Name=Mozilla Firefox
 Type=Application
 Categories=WebBrowser;Network;
 GenericName=Web Browser
-Icon=https://github.com/Ilhamazizi/Desktop-Entry/blob/main/.icons/firefox.ico
+Icon=$DESKTOP_ICONS/firefox.png
 Comment=Web Browser
 TryExec=$FIREFOX
 Exec=$FIREFOX %U
