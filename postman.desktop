@@ -11,3 +11,10 @@ TryExec=$POSTMAN
 Version=10.15.0
 Terminal=false
 StartupNotify=true
+
+Actions=new-window;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=postman --new-window %u
+
