@@ -1,12 +1,10 @@
-# SOURCE www.netacad.com
-
 [Desktop Entry]
 Encoding=UTF-8
 Name=Cisco Packettracer
 Version=8.0
 Type=Application
 Categories=Network;Education;Simulation;
-Icon=$DESKTOP_ICONS/pkt.png
+Icon=https://github.com/Ilhamazizi/Desktop-Entry/blob/main/.icons/pkt.ico
 Exec=$PKT %U
 TryExec=$PKT
 Terminal=false

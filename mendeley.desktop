@@ -1,11 +1,9 @@
-# SOURCE www.mendeley.com
-
 [Desktop Entry]
 Name=Mendeley
 Encoding=UTF-8
 Type=Application
 Categories=Education;
-Icon=$DESKTOP_ICONS/mendeley.png
+Icon=https://github.com/Ilhamazizi/Desktop-Entry/blob/main/.icons/mendeley.ico
 Exec=$MENDELEY %U
 TryExec=$MENDELEY
 Terminal=false
