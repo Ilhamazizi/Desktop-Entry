@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Rapidminer Studio
+Type=Application
+Categories=Education;Science;
+Icon=$DESKTOP_ICONS/rapidminer.png
+Exec=$RMS %U
+TryExec=$RMS
+Terminal=false
+Comment=RapidMiner is a software platform for data science
+GenericName=Data science platform
+StartupNotify=true
